@@ -1,0 +1,26 @@
+# Demostrar la Esperanza y Varianza de una Función Uniforme
+
+Si $\displaystyle X$ es una variable aleatoria tal que $\displaystyle X \sim \operatorname{U} ⁡(a,b)$  entonces la variable aleatoria $\displaystyle X$ satisface las siguientes propiedades:
+
+## Esperanza
+
+La **esperanza** de la variable aleatoria $\displaystyle X$ es:
+
+
+$\displaystyle \operatorname {E} [X]={\frac {a+b}{2}}$
+
+Esta se demuestra fácilmente utilizando la definición de esperanza matemática
+
+
+$\displaystyle \operatorname {E} [X] = \int _{a}^{b}{\frac {x}{b-a}}dx$
+
+$\displaystyle \operatorname {E} [X]  ={\frac {1}{b-a}}{\frac {x^{2}}{2}}{\bigg |}_{a}^{b}$
+
+
+$\displaystyle \operatorname {E} [X]  ={\frac {b^{2}-a^{2}}{2(b-a)}}$
+
+
+$\displaystyle \operatorname {E} [X]  ={\frac {(b-a)(b+a)}{2(b-a)}}$
+
+
+$\displaystyle \operatorname {E} [X]  ={\frac {a+b}{2}}$
